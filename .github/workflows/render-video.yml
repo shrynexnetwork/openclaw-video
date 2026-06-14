@@ -14,6 +14,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: npm
 
       - name: Install dependencies
         run: npm ci
@@ -25,11 +26,8 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Verify audio files
-        run: ls -la public/audio/ | head -20
-
       - name: Render video
-        run: npx remotion render src/index.ts Video out/video.mp4 --codec=h264 --crf=23 --x264-preset=veryfast --enforce-audio-track
+        run: npx remotion render src/index.ts Video out/video.mp4 --codec=h264 --crf=23 --x264-preset=veryfast --concurrency=4 --enforce-audio-track
 
       - name: Upload video artifact
         uses: actions/upload-artifact@v4
