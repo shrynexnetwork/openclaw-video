@@ -18,11 +18,11 @@ jobs:
           node-version: 20
       - name: Chunk script into sentences
         run: node chunk-script.js
-      - name: Split into 8 parallel groups
+      - name: Split into 16 parallel groups
         run: |
           node -e "
             const items = require('./script.json');
-            const n = 8;
+            const n = 16;
             const groups = Array.from({length:n}, () => []);
             items.forEach((item, i) => groups[i % n].push(item));
             groups.forEach((g, i) => {
@@ -46,7 +46,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        group: [01, 02, 03, 04, 05, 06, 07, 08]
+        group: [01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16]
     steps:
       - uses: actions/download-artifact@v4
         with:
