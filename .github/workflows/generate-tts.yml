@@ -51,6 +51,7 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: chunk-groups
+          path: .
       - name: Read group items for TTS
         id: items
         run: |
@@ -58,6 +59,7 @@ jobs:
       - uses: Shrawan13-glitch/tts-action@v1
         with:
           items: ${{ steps.items.outputs.items }}
+          voice: af_bella
           output-dir: tts-output
       - uses: actions/upload-artifact@v4
         with:
