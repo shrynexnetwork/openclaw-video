@@ -46,7 +46,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        group: [01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16]
+        group: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
     steps:
       - uses: actions/download-artifact@v4
         with:
@@ -55,7 +55,11 @@ jobs:
       - name: Read group items for TTS
         id: items
         run: |
-          echo "items=$(jq -c '.' group-${{ matrix.group }}.json)" >> "$GITHUB_OUTPUT"
+          FILE=$(ls -1 group-*.json | sort | sed -n '${{ matrix.group }}p')
+          echo "Using file: $FILE"
+          echo "items<<EOF" >> "$GITHUB_OUTPUT"
+          cat "$FILE" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
       - uses: Shrawan13-glitch/tts-action@v1
         with:
           items: ${{ steps.items.outputs.items }}
