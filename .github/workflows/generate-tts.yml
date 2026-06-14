@@ -55,11 +55,8 @@ jobs:
       - name: Read group items for TTS
         id: items
         run: |
-          FILE=$(ls -1 group-*.json | sort | sed -n '${{ matrix.group }}p')
-          echo "Using file: $FILE"
-          echo "items<<EOF" >> "$GITHUB_OUTPUT"
-          cat "$FILE" >> "$GITHUB_OUTPUT"
-          echo "EOF" >> "$GITHUB_OUTPUT"
+          PAD=$(printf '%02d' ${{ matrix.group }})
+          echo "items=$(jq -c '.' group-$PAD.json)" >> "$GITHUB_OUTPUT"
       - uses: Shrawan13-glitch/tts-action@v1
         with:
           items: ${{ steps.items.outputs.items }}
