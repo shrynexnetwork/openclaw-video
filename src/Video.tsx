@@ -1,28 +1,30 @@
-import { AbsoluteFill, useVideoConfig, Audio, Sequence } from "remotion";
-import timing from "../public/audio/timing.json";
+import React from "react";
+import { AbsoluteFill, Audio, staticFile, Sequence } from "remotion";
+import { buildTimeline } from "./data/timeline";
+import { SceneRenderer } from "./scenes/SceneRenderer";
+
+const timeline = buildTimeline();
 
 export const Video: React.FC = () => {
-  const { fps } = useVideoConfig();
-
-  let currentFrame = 0;
-
   return (
     <AbsoluteFill style={{ backgroundColor: "#0f0f0f" }}>
-      {timing.chunks.map((chunk) => {
-        const startFrame = currentFrame;
-        const durationFrames = Math.ceil(chunk.duration * fps);
-        currentFrame += durationFrames;
-
-        return (
-          <Sequence
-            key={chunk.id}
-            from={startFrame}
-            durationInFrames={durationFrames}
-          >
-            <Audio src={`/audio/${chunk.file}`} />
-          </Sequence>
-        );
-      })}
+      {timeline.map((scene) => (
+        <Sequence
+          key={scene.group.id}
+          from={scene.startFrame}
+          durationInFrames={scene.durationFrames}
+        >
+          <>
+            {scene.chunks.map((chunk) => (
+              <Audio
+                key={chunk.id}
+                src={staticFile(`audio/${chunk.file}`)}
+              />
+            ))}
+            <SceneRenderer scene={scene} />
+          </>
+        </Sequence>
+      ))}
     </AbsoluteFill>
   );
 };

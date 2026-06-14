@@ -1,0 +1,45 @@
+name: Render Video
+
+on:
+  workflow_run:
+    workflows: ["Generate TTS Audio"]
+    types:
+      - completed
+  workflow_dispatch:
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Download TTS audio artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: tts-audio-complete
+          merge-multiple: true
+          path: public/audio/
+
+      - name: Render video
+        run: npx remotion render src/index.ts Video out/video.mp4 --codec=h264 --crf=18 --enforce-audio-track
+
+      - name: Upload video artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: final-video
+          path: out/video.mp4
+          retention-days: 90
+
+      - name: Verify audio files
+        run: |
+          echo "Audio files in public/audio/:"
+          ls -la public/audio/ | wc -l
+          echo "Total files (including timing.json):"
+          ls public/audio/*.wav 2>/dev/null | wc -l

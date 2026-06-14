@@ -4,3 +4,7 @@ node_modules/
 .env
 out/
 public/audio/*.wav
+/scenes/
+.agents/
+.opencode/
+skills-lock.json

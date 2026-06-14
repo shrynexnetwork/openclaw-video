@@ -1,10 +1,13 @@
 import { Composition } from "remotion";
 import { Video } from "./Video";
+import { getTotalFrames } from "./data/timeline";
 
 const FPS = 30;
+const WIDTH = 1920;
+const HEIGHT = 1080;
 
 export const RemotionRoot: React.FC = () => {
-  const totalFrames = Math.floor(1646 * FPS);
+  const totalFrames = getTotalFrames();
 
   return (
     <Composition
@@ -12,8 +15,8 @@ export const RemotionRoot: React.FC = () => {
       component={Video}
       durationInFrames={totalFrames}
       fps={FPS}
-      width={1920}
-      height={1080}
+      width={WIDTH}
+      height={HEIGHT}
     />
   );
 };

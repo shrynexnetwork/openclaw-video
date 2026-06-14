@@ -7,6 +7,7 @@ on:
     paths:
       - 'scripts/**'
       - 'chunk-script.js'
+      - 'script.json'
 
 jobs:
   chunk:
