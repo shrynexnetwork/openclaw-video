@@ -4,6 +4,7 @@ node_modules/
 .env
 out/
 public/audio/*.wav
+public/audio/timing.json
 /scenes/
 .agents/
 .opencode/

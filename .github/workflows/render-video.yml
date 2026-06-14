@@ -20,6 +20,7 @@ jobs:
 
       - name: Download TTS audio artifacts
         run: |
+          rm -f public/audio/timing.json
           gh run download 27498851296 -n tts-audio-complete -D public/audio --repo shrynexnetwork/openclaw-video
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
