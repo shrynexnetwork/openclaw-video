@@ -1,0 +1,21 @@
+{
+  "name": "openclaw-video",
+  "version": "1.0.0",
+  "description": "The Austrian Developer Who Unintentionally Changed AI History",
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render src/index.ts Video out/video.mp4",
+    "still": "remotion still src/index.ts"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.242"
+  },
+  "devDependencies": {
+    "@remotion/cli": "^4.0.242",
+    "@remotion/renderer": "^4.0.242",
+    "@types/react": "^18.3.0",
+    "typescript": "^5.5.0"
+  }
+}
