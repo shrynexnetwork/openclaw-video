@@ -1,10 +1,9 @@
 name: Render Video
 
 on:
-  workflow_run:
-    workflows: ["Generate TTS Audio"]
-    types:
-      - completed
+  workflow_dispatch:
+  push:
+    branches: [main]
 
 jobs:
   render:
@@ -20,11 +19,10 @@ jobs:
         run: npm ci
 
       - name: Download TTS audio artifacts
-        uses: actions/download-artifact@v4
-        with:
-          name: tts-audio-complete
-          run-id: ${{ github.event.workflow_run.id }}
-          path: public/audio/
+        run: |
+          gh run download 27498851296 -n tts-audio-complete -D public/audio --repo shrynexnetwork/openclaw-video
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Verify audio files
         run: ls -la public/audio/ | head -20
