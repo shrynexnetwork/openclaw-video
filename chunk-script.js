@@ -118,7 +118,7 @@ const items = finalSentences.map((text, index) => {
   const id = String(index + 1).padStart(3, '0');
   return {
     text: text,
-    voice: 'am_adam',
+    voice: 'af_bella',
     filename: 's' + id,
   };
 });

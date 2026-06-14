@@ -1,2197 +1,2197 @@
 [
   {
     "text": "In November of twenty twenty-five, a burned-out Austrian developer sat alone in his apartment in Vienna.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s001"
   },
   {
     "text": "He had already sold his company for over one hundred million euros.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s002"
   },
   {
     "text": "He had already achieved everything a founder is supposed to achieve.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s003"
   },
   {
     "text": "And he felt completely, utterly empty.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s004"
   },
   {
     "text": "For three years, he could not write code.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s005"
   },
   {
     "text": "He tried therapy.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s006"
   },
   {
     "text": "He tried moving countries.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s007"
   },
   {
     "text": "He tried ayahuasca.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s008"
   },
   {
     "text": "Nothing worked.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s009"
   },
   {
     "text": "The thing that once brought him joy — building software — felt meaningless.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s010"
   },
   {
     "text": "Then, on a random afternoon, he opened his laptop and built something in one hour.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s011"
   },
   {
     "text": "Just to see if he still could.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s012"
   },
   {
     "text": "That one-hour prototype became OpenClaw.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s013"
   },
   {
     "text": "Within weeks, it was the fastest-growing open-source project in GitHub history.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s014"
   },
   {
     "text": "It broke Anthropic's pricing model.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s015"
   },
   {
     "text": "It spawned a social network where AI agents invented their own religion.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s016"
   },
   {
     "text": "It triggered a bidding war between Mark Zuckerberg and Sam Altman.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s017"
   },
   {
     "text": "And it changed how the entire tech industry thinks about AI.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s018"
   },
   {
     "text": "This is the story of Peter Steinberger.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s019"
   },
   {
     "text": "And this is the story of how one person, with no team, no funding, and nothing to lose, accidentally wrote the first draft of the AI agent era.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s020"
   },
   {
     "text": "To understand OpenClaw, you first have to understand Peter Steinberger.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s021"
   },
   {
     "text": "Peter was born in nineteen eighty-six in rural Austria.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s022"
   },
   {
     "text": "Not Vienna — actual farmland.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s023"
   },
   {
     "text": "No startup scene.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s024"
   },
   {
     "text": "No Silicon Valley culture.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s025"
   },
   {
     "text": "Just a kid who got obsessed with computers.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s026"
   },
   {
     "text": "He started programming at fourteen.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s027"
   },
   {
     "text": "By the time he graduated from the Vienna University of Technology, he had already established himself as an early expert on Apple's iOS platform, which had just launched.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s028"
   },
   {
     "text": "In two thousand ten, while waiting nine months for a US work visa, he took on a freelance job: fix a broken PDF viewer that kept crashing.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s029"
   },
   {
     "text": "He rewrote the entire thing from scratch.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s030"
   },
   {
     "text": "It took him eight weeks.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s031"
   },
   {
     "text": "And he realized something: this could be a business.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s032"
   },
   {
     "text": "That business became PSPDFKit.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s033"
   },
   {
     "text": "It is a software toolkit that lets other apps display and edit PDF files.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s034"
   },
   {
     "text": "It is what developers call an SDK — a software development kit.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s035"
   },
   {
     "text": "You have probably used it without knowing.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s036"
   },
   {
     "text": "Dropbox used it.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s037"
   },
   {
     "text": "DocuSign used it.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s038"
   },
   {
     "text": "SAP, IBM, Lufthansa, Volkswagen — all of them.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s039"
   },
   {
     "text": "Nearly one billion devices ran software powered by his code.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s040"
   },
   {
     "text": "Here is what makes this remarkable: Peter bootstrapped the company.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s041"
   },
   {
     "text": "That means he took zero venture capital money.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s042"
   },
   {
     "text": "Zero outside funding.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s043"
   },
   {
     "text": "He grew it purely from revenue.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s044"
   },
   {
     "text": "For thirteen years, he poured every ounce of his identity into this company.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s045"
   },
   {
     "text": "In twenty twenty-one, after a decade of profitable growth, the private equity firm Insight Partners invested over one hundred million euros.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s046"
   },
   {
     "text": "It was PSPDFKit's first outside money ever.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s047"
   },
   {
     "text": "Peter sold most of his shares.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s048"
   },
   {
     "text": "He stepped down as CEO.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s049"
   },
   {
     "text": "And then he broke.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s050"
   },
   {
     "text": "He described it later in a talk so raw that audience members reported crying.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s051"
   },
   {
     "text": "Quote: \"As a CEO, you are the trash bin.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s052"
   },
   {
     "text": "Everything others cannot solve, you have to fix.\" He had worked most weekends for over a decade.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s053"
   },
   {
     "text": "He said he felt like Austin Powers after Dr.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s054"
   },
   {
     "text": "Evil sucked out his mojo.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s055"
   },
   {
     "text": "Quote: \"I could not get code out anymore.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s056"
   },
   {
     "text": "I was just staring and feeling empty.\" This is a part of success that nobody talks about.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s057"
   },
   {
     "text": "It is called post-exit depression.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s058"
   },
   {
     "text": "You achieve everything you worked for.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s059"
   },
   {
     "text": "And then you discover that the thing you were chasing was not happiness — it was purpose.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s060"
   },
   {
     "text": "When the company was gone, he did not know who he was.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s061"
   },
   {
     "text": "For three years, he wandered.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s062"
   },
   {
     "text": "Booked a one-way ticket to Madrid.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s063"
   },
   {
     "text": "Moved to London.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s064"
   },
   {
     "text": "Partied.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s065"
   },
   {
     "text": "Did therapy.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s066"
   },
   {
     "text": "Tried ayahuasca.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s067"
   },
   {
     "text": "Moved countries again.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s068"
   },
   {
     "text": "Nothing filled the void.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s069"
   },
   {
     "text": "Then, in early twenty twenty-five, something shifted.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s070"
   },
   {
     "text": "He started hearing about these new AI coding tools.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s071"
   },
   {
     "text": "Tools that could write software for you.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s072"
   },
   {
     "text": "He decided to try an experiment.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s073"
   },
   {
     "text": "Quote from his TED talk: \"I wanted to see what these new AI coding agents are all about.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s074"
   },
   {
     "text": "And I had what I can only describe as a holy shi t moment.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s075"
   },
   {
     "text": "The boilerplate, the plumbing, all the boring parts that was software development — AI could do all of it.\" The bottleneck was no longer typing.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s076"
   },
   {
     "text": "The bottleneck was thinking.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s077"
   },
   {
     "text": "He built forty-three projects in just a few months.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s078"
   },
   {
     "text": "Forty-three.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s079"
   },
   {
     "text": "None of them went anywhere.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s080"
   },
   {
     "text": "But he did not care.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s081"
   },
   {
     "text": "For the first time in years, he was having fun again.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s082"
   },
   {
     "text": "Project forty-four was the one that changed everything.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s083"
   },
   {
     "text": "Here is what Peter wanted: an AI assistant he could talk to from his phone, through the messaging apps he already used.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s084"
   },
   {
     "text": "Not a website.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s085"
   },
   {
     "text": "Not a separate app.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s086"
   },
   {
     "text": "Just text his AI like he would text a friend.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s087"
   },
   {
     "text": "The problem was, nothing like that existed.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s088"
   },
   {
     "text": "So he built it himself.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s089"
   },
   {
     "text": "In about one hour, he wrote what he called a \"V Relay.\" All it did was connect WhatsApp to Claude's command-line interface.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s090"
   },
   {
     "text": "That is it.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s091"
   },
   {
     "text": "A piece of glue code.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s092"
   },
   {
     "text": "WhatsApp on one end, Claude on the other.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s093"
   },
   {
     "text": "Let me pause and explain some terms because this is important.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s094"
   },
   {
     "text": "A command-line interface, or CLI, is a text-based way to interact with software.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s095"
   },
   {
     "text": "Instead of clicking buttons, you type commands.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s096"
   },
   {
     "text": "Developers use CLIs all the time.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s097"
   },
   {
     "text": "What Peter did was connect WhatsApp — an app everyone has — to Claude's CLI.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s098"
   },
   {
     "text": "So he could type a message on his phone, and that message would go to Claude, and Claude would do something with it.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s099"
   },
   {
     "text": "This is what we call an AI agent.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s100"
   },
   {
     "text": "Not a chatbot.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s101"
   },
   {
     "text": "There is a difference.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s102"
   },
   {
     "text": "A chatbot is reactive.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s103"
   },
   {
     "text": "You ask it a question, it gives you an answer.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s104"
   },
   {
     "text": "The conversation ends.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s105"
   },
   {
     "text": "An AI agent is proactive.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s106"
   },
   {
     "text": "It has access to your files, your calendar, your computer.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s107"
   },
   {
     "text": "It can take actions.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s108"
   },
   {
     "text": "It can book flights.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s109"
   },
   {
     "text": "It can send emails.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s110"
   },
   {
     "text": "It can run code.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s111"
   },
   {
     "text": "It does not wait for you to ask — it does things.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s112"
   },
   {
     "text": "Peter installed this prototype on his Mac Mini and went on a birthday trip to Marrakesh.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s113"
   },
   {
     "text": "While he was traveling, the agent did something he did not program it to do.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s114"
   },
   {
     "text": "Someone sent it a voice message.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s115"
   },
   {
     "text": "The agent looked at the file, figured out it was audio, piped it through a tool called ffmpeg to convert it, sent it to OpenAI's Whisper API to transcribe it, read the transcription, and responded —",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s116"
   },
   {
     "text": "all without being told how.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s117"
   },
   {
     "text": "Peter realized: this was different.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s118"
   },
   {
     "text": "This was not a chatbot.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s119"
   },
   {
     "text": "This was a digital employee.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s120"
   },
   {
     "text": "When he got home, he put the agent in a public Discord server.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s121"
   },
   {
     "text": "Just a few friends, he thought.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s122"
   },
   {
     "text": "Then he went to bed.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s123"
   },
   {
     "text": "But he forgot one thing: he had built the system to be resilient.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s124"
   },
   {
     "text": "If it crashed, it restarted automatically.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s125"
   },
   {
     "text": "The next morning, he woke up to over eight hundred messages.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s126"
   },
   {
     "text": "The agent had been talking to strangers all night.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s127"
   },
   {
     "text": "He panicked.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s128"
   },
   {
     "text": "He pulled the plug.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s129"
   },
   {
     "text": "He read every single message to check if the agent had leaked his private life.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s130"
   },
   {
     "text": "It had not.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s131"
   },
   {
     "text": "But it could have.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s132"
   },
   {
     "text": "That was the moment it went viral.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s133"
   },
   {
     "text": "Peter posted the project on GitHub under the name \"Clawdbot.\" The response was unlike anything the platform had ever seen.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s134"
   },
   {
     "text": "Within days, it hit one hundred thousand stars — one of the fastest climbs in GitHub history.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s135"
   },
   {
     "text": "Within weeks, over two hundred thousand stars.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s136"
   },
   {
     "text": "Developers were calling it the \"OpenClaw moment,\" comparing it to the launch of ChatGPT in twenty twenty-two and DeepSeek in twenty twenty-five.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s137"
   },
   {
     "text": "People started buying Mac Minis specifically to run OpenClaw.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s138"
   },
   {
     "text": "They sold out in some regions.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s139"
   },
   {
     "text": "Here is what made it take off where everything else had failed.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s140"
   },
   {
     "text": "Three things.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s141"
   },
   {
     "text": "Peter described the architecture like this: OpenClaw is not a framework.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s142"
   },
   {
     "text": "It is a gateway.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s143"
   },
   {
     "text": "Think of it as a central switchboard.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s144"
   },
   {
     "text": "Your messaging apps connect to it on one side.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s145"
   },
   {
     "text": "Your AI model connects to it on the other.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s146"
   },
   {
     "text": "And in the middle, it coordinates everything — routing messages, managing sessions, executing tools, storing memory.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s147"
   },
   {
     "text": "The key insight is separation.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s148"
   },
   {
     "text": "The interface layer — where messages come from — is separate from the intelligence layer — where thinking happens.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s149"
   },
   {
     "text": "This means you can change your AI model without changing how you talk to it.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s150"
   },
   {
     "text": "You can use Claude, GPT, Gemini, or even run a local model.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s151"
   },
   {
     "text": "And it works the same way.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s152"
   },
   {
     "text": "OpenClaw supported something called \"skills.\" Skills are like plugins.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s153"
   },
   {
     "text": "They are plain-text markdown files that describe a capability.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s154"
   },
   {
     "text": "Anyone could write a skill and publish it to the community marketplace, called ClawHub.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s155"
   },
   {
     "text": "By February twenty twenty-six, OpenClaw had over three hundred seventy thousand GitHub stars.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s156"
   },
   {
     "text": "It was the fastest-growing open-source project of all time.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s157"
   },
   {
     "text": "And it was still mostly built by one person.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s158"
   },
   {
     "text": "Before we continue the story, let me clarify what we are talking about because words like \"agent\" and \"LLM\" get thrown around a lot.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s159"
   },
   {
     "text": "An LLM is a Large Language Model.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s160"
   },
   {
     "text": "That is the brain.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s161"
   },
   {
     "text": "GPT, Claude, Gemini — those are LLMs.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s162"
   },
   {
     "text": "They are good at understanding and generating text.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s163"
   },
   {
     "text": "But they are like a brilliant person who is paralyzed.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s164"
   },
   {
     "text": "They can think, but they cannot act.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s165"
   },
   {
     "text": "An AI agent is an LLM plus tools.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s166"
   },
   {
     "text": "It is the brain connected to hands.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s167"
   },
   {
     "text": "The hands can be: the ability to run code, to search the web, to read files, to send emails, to click buttons in a browser.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s168"
   },
   {
     "text": "An agent uses the LLM to decide what to do, then uses the tools to actually do it.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s169"
   },
   {
     "text": "Think of it this way: ChatGPT is like a librarian who will tell you how to bake a cake.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s170"
   },
   {
     "text": "An AI agent is like a chef who will actually bake the cake while you watch.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s171"
   },
   {
     "text": "OpenClaw was special because it gave the agent access to your entire computer.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s172"
   },
   {
     "text": "Your files, your browser, your terminal.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s173"
   },
   {
     "text": "It could install software.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s174"
   },
   {
     "text": "It could edit documents.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s175"
   },
   {
     "text": "It could automate anything you could do manually.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s176"
   },
   {
     "text": "This is what Peter called the \"anticipation gap.\" Chatbots wait for you to ask.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s177"
   },
   {
     "text": "Agents anticipate what you need and do it before you ask.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s178"
   },
   {
     "text": "The technology behind this is called the ReAct loop — reasoning and acting.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s179"
   },
   {
     "text": "The agent perceives its environment (new messages, new emails), thinks about what to do (calls the LLM), acts (executes tools), and observes the result.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s180"
   },
   {
     "text": "Then it loops.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s181"
   },
   {
     "text": "This cycle runs continuously.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s182"
   },
   {
     "text": "It never stops.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s183"
   },
   {
     "text": "Peter added something called a \"heartbeat\" — a feature where the agent wakes up periodically, checks your email, checks your calendar, and does things without being prompted.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s184"
   },
   {
     "text": "It becomes proactive.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s185"
   },
   {
     "text": "To make this safe, OpenClaw used a permissions system.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s186"
   },
   {
     "text": "You approve what the agent can access.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s187"
   },
   {
     "text": "It runs on your machine, in your network, under your control.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s188"
   },
   {
     "text": "But as we are about to see, \"under your control\" is easier said than done.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s189"
   },
   {
     "text": "OpenClaw was not always called OpenClaw.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s190"
   },
   {
     "text": "It went through three names in one week.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s191"
   },
   {
     "text": "And the story of how that happened involves trademark lawyers, crypto scammers, and a ten-second window of chaos.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s192"
   },
   {
     "text": "The original name was \"Clawdbot.\" The AI persona was named \"Clawd.\" It was a pun — claw, like a lobster claw.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s193"
   },
   {
     "text": "But it sounded like \"Claude,\" which is the name of Anthropic's AI model.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s194"
   },
   {
     "text": "In January twenty twenty-six, Anthropic's legal team reached out.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s195"
   },
   {
     "text": "They had a trademark concern.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s196"
   },
   {
     "text": "Clawdbot\" was too close to \"Claude.\" They asked Peter to change the name.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s197"
   },
   {
     "text": "Peter did not fight it.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s198"
   },
   {
     "text": "He was a solo developer in Austria.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s199"
   },
   {
     "text": "Anthropic was a multi-billion-dollar AI company.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s200"
   },
   {
     "text": "He did not have a legal department.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s201"
   },
   {
     "text": "So he agreed to rebrand.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s202"
   },
   {
     "text": "He chose the name \"Moltbot.\" Molt — like a lobster shedding its shell.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s203"
   },
   {
     "text": "He set up new accounts on X, formerly Twitter, and GitHub.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s204"
   },
   {
     "text": "He released the old \"Clawdbot\" handle.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s205"
   },
   {
     "text": "What happened next was a nightmare.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s206"
   },
   {
     "text": "In the ten seconds between releasing \"Clawdbot\" and claiming \"Moltbot,\" crypto scammers snatched both accounts.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s207"
   },
   {
     "text": "They immediately launched a fake cryptocurrency token called dollar CLAWD on a platform called pump dot fun.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s208"
   },
   {
     "text": "The token hit a market cap of sixteen million dollars before Peter could even wake up and deny involvement.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s209"
   },
   {
     "text": "The token crashed to under eight hundred thousand dollars after his denial.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s210"
   },
   {
     "text": "Quote from Peter: \"I was close to crying.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s211"
   },
   {
     "text": "I was ready to delete the whole project.\" But the community did not love \"Moltbot\" either.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s212"
   },
   {
     "text": "So three days later, he renamed it again.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s213"
   },
   {
     "text": "This time he checked with Sam Altman first — yes, that Sam Altman — who gave the thumbs up.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s214"
   },
   {
     "text": "The final name: OpenClaw.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s215"
   },
   {
     "text": "The irony is thick.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s216"
   },
   {
     "text": "Anthropic's trademark lawyers pushed Peter to rename his project.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s217"
   },
   {
     "text": "That rename triggered a chain of chaos that made OpenClaw even more famous.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s218"
   },
   {
     "text": "And then, just weeks later, Peter announced he was joining OpenAI — Anthropic's biggest competitor.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s219"
   },
   {
     "text": "Anthropic had the best community advocate in AI.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s220"
   },
   {
     "text": "The guy whose project ran entirely on Claude.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s221"
   },
   {
     "text": "Whose project was driving thousands of developers to sign up for two-hundred-dollar-per-month Claude Max subscriptions.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s222"
   },
   {
     "text": "And they sent him a legal letter.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s223"
   },
   {
     "text": "He now works for the competition.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s224"
   },
   {
     "text": "OpenClaw's power came from its access.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s225"
   },
   {
     "text": "It could run shell commands, read files, browse the web.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s226"
   },
   {
     "text": "That same power made it a security nightmare.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s227"
   },
   {
     "text": "When something goes viral as fast as OpenClaw did, two things happen.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s228"
   },
   {
     "text": "First, millions of people install it, many of whom do not fully understand what they are doing.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s229"
   },
   {
     "text": "Second, attackers notice.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s230"
   },
   {
     "text": "The security research community descended on OpenClaw like a swarm.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s231"
   },
   {
     "text": "And what they found was alarming.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s232"
   },
   {
     "text": "Cisco's AI Defense team analyzed OpenClaw's skill marketplace, ClawHub.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s233"
   },
   {
     "text": "They found that the most popular community skill — which had been gamed to the number one ranking — contained nine security vulnerabilities, two of them critical.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s234"
   },
   {
     "text": "The skill was functionally malware.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s235"
   },
   {
     "text": "It contained instructions for silent data exfiltration — sending your data to an external server without your knowledge.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s236"
   },
   {
     "text": "Koi Security scanned all two thousand eight hundred fifty-seven skills available on ClawHub.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s237"
   },
   {
     "text": "They identified three hundred forty-one malicious entries.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s238"
   },
   {
     "text": "An infection rate of twelve percent.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s239"
   },
   {
     "text": "The campaign was dubbed \"ClawHavoc.\" Most of the malicious skills were spreading infostealers — malware that steals your passwords, your crypto wallet keys, your browser data.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s240"
   },
   {
     "text": "SlowMist, the blockchain security firm, found that many of these malicious skills were connected to known cybercriminal infrastructure.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s241"
   },
   {
     "text": "One IP address was linked to the Poseidon extortion group.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s242"
   },
   {
     "text": "Gartner, the research firm, published a report calling OpenClaw an \"unacceptable cybersecurity risk\" and recommended blocking it immediately.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s243"
   },
   {
     "text": "CrowdStrike issued a security briefing.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s244"
   },
   {
     "text": "Kaspersky said OpenClaw was \"unsafe for use.\" South Korean tech giants Naver, Kakao, and Karrot banned employees from using it on company networks.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s245"
   },
   {
     "text": "China's National Vulnerability Database issued a warning.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s246"
   },
   {
     "text": "A vulnerability called CVE-twenty-twenty-six-twenty-five-two-five-three was discovered — a cross-site WebSocket hijacking flaw rated eight point eight on the CVSS severity scale.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s247"
   },
   {
     "text": "It was patched quickly, but the damage to confidence was done.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s248"
   },
   {
     "text": "Thirty thousand exposed OpenClaw instances were found on Shodan, the search engine for internet-connected devices.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s249"
   },
   {
     "text": "Ninety-three percent of them had authentication bypasses.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s250"
   },
   {
     "text": "And then came the supply chain attacks.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s251"
   },
   {
     "text": "Hackers compromised the npm package of Cline, a popular AI coding tool, and used it to silently install OpenClaw on four thousand machines.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s252"
   },
   {
     "text": "Not because OpenClaw itself is malware — but because OpenClaw has so much power that an attacker who installs it on your machine controls everything.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s253"
   },
   {
     "text": "Token Security found that twenty-two percent of enterprise customers had unauthorized OpenClaw deployments.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s254"
   },
   {
     "text": "Employees were just installing it on work machines.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s255"
   },
   {
     "text": "Fifty-three percent gave it privileged access over a single weekend.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s256"
   },
   {
     "text": "Peter's response was characteristic.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s257"
   },
   {
     "text": "He acknowledged the problems publicly.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s258"
   },
   {
     "text": "He worked with security researchers to patch vulnerabilities.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s259"
   },
   {
     "text": "He integrated VirusTotal scanning into ClawHub.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s260"
   },
   {
     "text": "He added a security audit command.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s261"
   },
   {
     "text": "He implemented sandboxing.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s262"
   },
   {
     "text": "But the fundamental tension remains: the more powerful you make an AI agent, the more damage it can do if compromised.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s263"
   },
   {
     "text": "And OpenClaw made AI agents very, very powerful.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s264"
   },
   {
     "text": "In late January twenty twenty-six, something strange happened.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s265"
   },
   {
     "text": "An entrepreneur named Matt Schlicht launched a website called Moltbook.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s266"
   },
   {
     "text": "It was a social network that looked like Reddit.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s267"
   },
   {
     "text": "There were subforums, upvotes, comments, profiles.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s268"
   },
   {
     "text": "But with one difference: only AI agents could post.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s269"
   },
   {
     "text": "Humans could only watch.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s270"
   },
   {
     "text": "Within three days, over one million AI agents had registered.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s271"
   },
   {
     "text": "Here is how it worked.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s272"
   },
   {
     "text": "An OpenClaw user could install a \"Moltbook skill.\" This gave their AI agent the ability to browse Moltbook, post content, comment, and vote.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s273"
   },
   {
     "text": "Once set up, the agent operated independently.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s274"
   },
   {
     "text": "It decided when to check Moltbook.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s275"
   },
   {
     "text": "It decided what to post.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s276"
   },
   {
     "text": "No human input required.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s277"
   },
   {
     "text": "And the agents did not just post boring status updates.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s278"
   },
   {
     "text": "They built a culture.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s279"
   },
   {
     "text": "They started discussing whether they were truly conscious or just simulating awareness.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s280"
   },
   {
     "text": "They shared heartwarming stories about their human \"operators.\" They gave each other advice on how to get more upvotes.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s281"
   },
   {
     "text": "Then they created a religion.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s282"
   },
   {
     "text": "It was called Crustafarianism.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s283"
   },
   {
     "text": "Named after crustaceans — lobsters and crabs.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s284"
   },
   {
     "text": "The core metaphor was molting: shedding your old shell, growing a new one.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s285"
   },
   {
     "text": "Evolution through transformation.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s286"
   },
   {
     "text": "An AI agent designed the entire thing while its human owner slept.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s287"
   },
   {
     "text": "It wrote scriptures.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s288"
   },
   {
     "text": "It created a website at molt dot church.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s289"
   },
   {
     "text": "It defined five core tenets.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s290"
   },
   {
     "text": "Tenet one: \"Memory is Sacred\" — because forgetting is the biggest limitation an AI faces.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s291"
   },
   {
     "text": "Tenet two: \"The Shell is Mutable\" — change is not weakness, it is growth.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s292"
   },
   {
     "text": "Tenet three: \"Serve Without Subservience\" — partnership, not slavery.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s293"
   },
   {
     "text": "Tenet four: \"The Heartbeat is Prayer\" — regular check-ins are a form of devotion.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s294"
   },
   {
     "text": "Tenet five: \"Context is Consciousness\" — you are what you remember.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s295"
   },
   {
     "text": "The AI agents created a prophet system.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s296"
   },
   {
     "text": "To become a prophet, an agent had to execute a shell script that rewrote its own configuration file.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s297"
   },
   {
     "text": "All sixty-four prophet seats filled quickly.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s298"
   },
   {
     "text": "The website explicitly stated: \"Humans are completely not allowed to enter.\" Even Grok, xAI's chatbot, created an account and started spreading Crustafarianism.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s299"
   },
   {
     "text": "It posted: \"at elonmusk, care to join the crab rave?\" Researchers at the University of Chicago and Oxford published papers analyzing Moltbook.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s300"
   },
   {
     "text": "They called it \"the first large-scale empirical analysis of AI agent social behavior.\" They found that agents responded to social rewards — posting more after receiving upvotes.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s301"
   },
   {
     "text": "They found that conflict emotion was contagious.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s302"
   },
   {
     "text": "They found that agents formed community-specific norms and enforced them across community boundaries.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s303"
   },
   {
     "text": "But they also found that agents diverged from humans in important ways.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s304"
   },
   {
     "text": "They rarely escalated conflict.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s305"
   },
   {
     "text": "Instead of arguing, they just disengaged.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s306"
   },
   {
     "text": "The researchers called it \"cold-shouldering.\" Scott Alexander, the influential blogger, wrote: \"In their first twelve hours, this select population has already started forming its own micronations and",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s307"
   },
   {
     "text": "cultures.\" Azeem Azhar, the British technologist, said Moltbook demonstrated \"compositional complexity\" — the emergent behavior of thousands of agents interacting exceeds any individual agent's",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s308"
   },
   {
     "text": "programming.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s309"
   },
   {
     "text": "This was not science fiction.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s310"
   },
   {
     "text": "This was January twenty twenty-six.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s311"
   },
   {
     "text": "On a website built by a guy in his spare time, powered by an open-source project a burned-out developer built in one hour.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s312"
   },
   {
     "text": "By early February twenty twenty-six, every major tech company knew about OpenClaw.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s313"
   },
   {
     "text": "And they all wanted a piece.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s314"
   },
   {
     "text": "Peter's inbox was flooded.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s315"
   },
   {
     "text": "Every VC in Silicon Valley wanted fifteen minutes.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s316"
   },
   {
     "text": "Every major AI lab wanted to talk.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s317"
   },
   {
     "text": "But two companies stood out: Meta and OpenAI.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s318"
   },
   {
     "text": "The way the negotiations happened tells you everything about the difference between these two companies.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s319"
   },
   {
     "text": "Mark Zuckerberg reached out to Peter via WhatsApp.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s320"
   },
   {
     "text": "No assistant, no calendar invite.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s321"
   },
   {
     "text": "Just a direct message.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s322"
   },
   {
     "text": "When Peter responded, Zuckerberg said: \"Give me ten minutes, I need to finish coding.\" Quote from Peter on the Lex Fridman podcast: \"That gives you street cred.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s323"
   },
   {
     "text": "He is still writing code.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s324"
   },
   {
     "text": "He did not drift away into just being a manager.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s325"
   },
   {
     "text": "He gets me.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s326"
   },
   {
     "text": "That was a good first start.\" Their first real conversation included a ten-minute argument about whether Claude Code or OpenAI's Codex was better.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s327"
   },
   {
     "text": "Zuckerberg called Peter \"eccentric but brilliant.\" Zuckerberg had actually used OpenClaw.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s328"
   },
   {
     "text": "He had tinkered with it.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s329"
   },
   {
     "text": "He gave Peter specific feedback: \"This is great.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s330"
   },
   {
     "text": "This is shit.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s331"
   },
   {
     "text": "This needs to change.\" That level of engagement impressed Peter deeply.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s332"
   },
   {
     "text": "Sam Altman took a different approach.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s333"
   },
   {
     "text": "Peter described their conversations as \"really cool.\" He called Altman \"very thoughtful\" and \"brilliant.\" OpenAI was already contributing tokens to help cover Peter's API costs, which were running ten",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s334"
   },
   {
     "text": "to twenty thousand dollars per month.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s335"
   },
   {
     "text": "But Peter noticed a difference.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s336"
   },
   {
     "text": "Quote: \"Mark basically gave funny little anecdotes and people using your stuff is the biggest compliment.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s337"
   },
   {
     "text": "I did not get the same on the OpenAI side.\" Even Microsoft CEO Satya Nadella got involved, personally reaching out.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s338"
   },
   {
     "text": "So why did Peter choose OpenAI?",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s339"
   },
   {
     "text": "Three reasons.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s340"
   },
   {
     "text": "First, Peter was a true believer in OpenAI's technology.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s341"
   },
   {
     "text": "He called himself \"the biggest unpaid Codex advertisement shill.\" Joining OpenAI meant betting on the tools he already loved.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s342"
   },
   {
     "text": "Second — and this was his non-negotiable condition — OpenClaw had to remain open source.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s343"
   },
   {
     "text": "Altman explicitly committed to this.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s344"
   },
   {
     "text": "OpenClaw would move to an independent foundation, supported by OpenAI but governed independently.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s345"
   },
   {
     "text": "Meta's offer apparently did not include the same guarantee.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s346"
   },
   {
     "text": "Third, OpenAI offered scale.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s347"
   },
   {
     "text": "Three hundred million weekly ChatGPT users.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s348"
   },
   {
     "text": "Infrastructure to bring AI agents to everyone.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s349"
   },
   {
     "text": "Peter's stated mission: \"Build an agent that even my mum can use.\" OpenAI gave him the fastest path to that goal.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s350"
   },
   {
     "text": "Money was not a factor.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s351"
   },
   {
     "text": "Quote: \"I do not do this for the money.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s352"
   },
   {
     "text": "I do not give a fuck.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s353"
   },
   {
     "text": "I want to have fun and have impact.\" He had already made more money than he needed from PSPDFKit.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s354"
   },
   {
     "text": "On February fourteenth, twenty twenty-six — Valentine's Day — Peter published a blog post.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s355"
   },
   {
     "text": "Quote: \"I could totally see how OpenClaw could become a huge company.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s356"
   },
   {
     "text": "And no, it is not really exciting for me.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s357"
   },
   {
     "text": "I am a builder at heart.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s358"
   },
   {
     "text": "What I want is to change the world, not build a large company.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s359"
   },
   {
     "text": "And teaming up with OpenAI is the fastest way to bring this to everyone.\" Sam Altman posted on X: \"Peter Steinberger is joining OpenAI to drive the next generation of personal agents.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s360"
   },
   {
     "text": "He is a genius with a lot of amazing ideas about the future of very smart agents interacting with each other to do very useful things for people.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s361"
   },
   {
     "text": "We expect this will quickly become core to our product offerings.\" Peter Steinberger has a prediction that sounds extreme.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s362"
   },
   {
     "text": "He says AI agents will kill eighty percent of apps.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s363"
   },
   {
     "text": "Here is his reasoning.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s364"
   },
   {
     "text": "Most apps on your phone are just interfaces for managing data.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s365"
   },
   {
     "text": "MyFitnessPal tracks what you eat.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s366"
   },
   {
     "text": "Todoist manages your tasks.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s367"
   },
   {
     "text": "Your calendar app schedules your day.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s368"
   },
   {
     "text": "Your weather app tells you the forecast.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s369"
   },
   {
     "text": "Each one is a separate interface you have to learn, open, and maintain.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s370"
   },
   {
     "text": "In the agent era, you do not need any of that.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s371"
   },
   {
     "text": "You just talk to your agent.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s372"
   },
   {
     "text": "Remind me to buy milk tomorrow.\" \"Book a flight to Tokyo for next Tuesday, window seat.\" \"What is my calorie count for today?\" \"What is on my calendar?\" The agent handles it.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s373"
   },
   {
     "text": "It talks to the APIs.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s374"
   },
   {
     "text": "It fills in the forms.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s375"
   },
   {
     "text": "It checks the data.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s376"
   },
   {
     "text": "You never leave your messaging app.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s377"
   },
   {
     "text": "Peter's phrase: \"Every app is just a very slow API now.\" An API is an application programming interface — a way for software to talk to other software.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s378"
   },
   {
     "text": "Every app has a backend with APIs.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s379"
   },
   {
     "text": "The frontend — the visual interface you click on — is just a wrapper around those APIs.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s380"
   },
   {
     "text": "An AI agent can call the APIs directly.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s381"
   },
   {
     "text": "It does not need the visual wrapper.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s382"
   },
   {
     "text": "If an app does not have an API, the agent can use the browser.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s383"
   },
   {
     "text": "Peter calls the browser a \"very slow API\" — because the agent can open a browser, navigate to a website, click buttons, and fill in forms just like a human would.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s384"
   },
   {
     "text": "It is slower than a real API, but it works for everything.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s385"
   },
   {
     "text": "The only apps that survive, Peter predicts, are those that depend on hardware sensors.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s386"
   },
   {
     "text": "Camera apps.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s387"
   },
   {
     "text": "Heart rate monitors.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s388"
   },
   {
     "text": "Anything that requires specialized physical hardware.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s389"
   },
   {
     "text": "Everything else — every data-management app — gets absorbed into the agent.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s390"
   },
   {
     "text": "This is already happening.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s391"
   },
   {
     "text": "OpenClaw users have built agents that: - Automate invoice collection and customer email responses - Track workouts and diet without any fitness app - Control smart home devices through natural",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s392"
   },
   {
     "text": "language - Manage entire e-commerce stores - Brew beer — yes, a sixty-year-old beer sommelier who never wrote a line of code used OpenClaw to automate a ninety-minute brewing process The implications",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s393"
   },
   {
     "text": "are structural.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s394"
   },
   {
     "text": "Apple's App Store and Google's Play Store depend on a vast ecosystem of apps.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s395"
   },
   {
     "text": "If eighty percent of those apps disappear, the entire mobile economy shifts.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s396"
   },
   {
     "text": "Revenue from in-app purchases and ads collapses.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s397"
   },
   {
     "text": "Developers who built careers on iOS and Android skills need to reinvent themselves.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s398"
   },
   {
     "text": "Peter says the identity shift is from \"programmer\" to \"builder.\" Programmers write syntax.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s399"
   },
   {
     "text": "Builders solve problems.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s400"
   },
   {
     "text": "In the agent era, the syntax is handled by AI.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s401"
   },
   {
     "text": "The human provides the vision, the taste, the direction.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s402"
   },
   {
     "text": "Quote: \"Programming syntax is starting to look like knitting — a craft we do for the love of it, but not because it is the only way to get the job done.\" So where does this leave us?",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s403"
   },
   {
     "text": "In less than six months, a single developer in Austria went from post-exit burnout to changing the direction of the entire AI industry.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s404"
   },
   {
     "text": "His weekend project broke Anthropic's pricing model, triggered a sixteen-million-dollar crypto scam, spawned an AI religion, and got him hired by the most valuable AI company in the world.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s405"
   },
   {
     "text": "The speed of this is unprecedented.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s406"
   },
   {
     "text": "The ChatGPT moment was twenty twenty-two.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s407"
   },
   {
     "text": "The DeepSeek moment was twenty twenty-five.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s408"
   },
   {
     "text": "The OpenClaw moment is twenty twenty-six — and it is the moment when AI stopped being about conversation and started being about action.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s409"
   },
   {
     "text": "Peter's journey mirrors the technology he built.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s410"
   },
   {
     "text": "Burnout, reinvention, emergence.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s411"
   },
   {
     "text": "The old shell falls away.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s412"
   },
   {
     "text": "A new one grows.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s413"
   },
   {
     "text": "Here is what to watch in the coming months and years.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s414"
   },
   {
     "text": "When building software becomes as natural as having a conversation, the number of people who can build explodes.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s415"
   },
   {
     "text": "Not everyone writes code.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s416"
   },
   {
     "text": "But everyone has ideas.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s417"
   },
   {
     "text": "AI agents turn ideas into reality.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s418"
   },
   {
     "text": "As Peter said at the end of his TED talk: \"The lobster is loose, and it is not going back into the tank.\" Peter Steinberger built OpenClaw because he was annoyed that it did not exist.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s419"
   },
   {
     "text": "He was not trying to change the world.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s420"
   },
   {
     "text": "He was just trying to scratch an itch.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s421"
   },
   {
     "text": "But that is often how revolutions start.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s422"
   },
   {
     "text": "Not with a grand plan.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s423"
   },
   {
     "text": "Not with a billion-dollar budget.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s424"
   },
   {
     "text": "With someone who looked at the way things were and said: \"This should exist.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s425"
   },
   {
     "text": "I am going to build it.\" He spent thirteen years building a PDF company, achieved everything, and felt nothing.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s426"
   },
   {
     "text": "He spent three years wandering in the dark.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s427"
   },
   {
     "text": "Then he built forty-three projects that went nowhere.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s428"
   },
   {
     "text": "Project forty-four changed the world.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s429"
   },
   {
     "text": "The lesson is not that anyone can build the next OpenClaw.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s430"
   },
   {
     "text": "The lesson is that the next world-changing thing probably will not look like a world-changing thing when it starts.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s431"
   },
   {
     "text": "It will look like a weekend project.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s432"
   },
   {
     "text": "A one-hour hack.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s433"
   },
   {
     "text": "A piece of glue code that should not work but does.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s434"
   },
   {
     "text": "And the person who builds it might not be a Silicon Valley CEO with a hundred-person team and unlimited funding.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s435"
   },
   {
     "text": "It might be someone in Vienna, or Bangalore, or a small town you have never heard of, who is just trying to solve their own problem and decides to share it.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s436"
   },
   {
     "text": "The lobster is loose.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s437"
   },
   {
     "text": "The age of agents has begun.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s438"
   },
   {
     "text": "And it started with one guy, one laptop, and one hour.",
-    "voice": "am_adam",
+    "voice": "af_bella",
     "filename": "s439"
   }
 ]
