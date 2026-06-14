@@ -19,6 +19,7 @@ export const Video: React.FC = () => {
               <Audio
                 key={chunk.id}
                 src={staticFile(`audio/${chunk.file}`)}
+                startFrom={chunk.startFrame - scene.startFrame}
               />
             ))}
             <SceneRenderer scene={scene} />
