@@ -28,7 +28,7 @@ jobs:
           path: public/audio/
 
       - name: Render video
-        run: npx remotion render src/index.ts Video out/video.mp4 --codec=h264 --crf=18 --enforce-audio-track
+        run: npx remotion render src/index.ts Video out/video.mp4 --codec=h264 --crf=23 --x264-preset=veryfast --enforce-audio-track
 
       - name: Upload video artifact
         uses: actions/upload-artifact@v4
@@ -36,10 +36,3 @@ jobs:
           name: final-video
           path: out/video.mp4
           retention-days: 90
-
-      - name: Verify audio files
-        run: |
-          echo "Audio files in public/audio/:"
-          ls -la public/audio/ | wc -l
-          echo "Total files (including timing.json):"
-          ls public/audio/*.wav 2>/dev/null | wc -l
