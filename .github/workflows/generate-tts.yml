@@ -1,0 +1,125 @@
+name: Generate TTS Audio
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'chunk-script.js'
+
+jobs:
+  chunk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Chunk script into sentences
+        run: node chunk-script.js
+      - name: Split into 4 parallel groups
+        run: |
+          node -e "
+            const items = require('./script.json');
+            const n = 4;
+            const groups = Array.from({length:n}, () => []);
+            items.forEach((item, i) => groups[i % n].push(item));
+            groups.forEach((g, i) => {
+              const idx = String(i+1).padStart(2,'0');
+              require('fs').writeFileSync(
+                'group-' + idx + '.json',
+                JSON.stringify(g, null, 2)
+              );
+              console.log('group-' + idx + '.json: ' + g.length + ' items');
+            });
+          "
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chunk-groups
+          path: group-*.json
+          retention-days: 1
+
+  tts:
+    needs: chunk
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        group: [01, 02, 03, 04]
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: chunk-groups
+      - name: Read group items for TTS
+        id: items
+        run: |
+          echo "items=$(jq -c '.' group-${{ matrix.group }}.json)" >> "$GITHUB_OUTPUT"
+      - uses: Shrawan13-glitch/tts-action@v1
+        with:
+          items: ${{ steps.items.outputs.items }}
+          output-dir: tts-output
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tts-audio-group-${{ matrix.group }}
+          path: tts-output/
+          retention-days: 1
+
+  measure-and-merge:
+    needs: tts
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download all audio groups
+        uses: actions/download-artifact@v4
+        with:
+          pattern: tts-audio-group-*
+          merge-multiple: true
+      - name: Install ffprobe
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Measure duration of every audio clip
+        run: |
+          node -e "
+            const fs = require('fs');
+            const path = require('path');
+            const { execSync } = require('child_process');
+
+            const dir = '.';
+            const files = fs.readdirSync(dir)
+              .filter(f => f.endsWith('.wav'))
+              .sort();
+
+            const chunks = files.map(file => {
+              const fullPath = path.join(dir, file);
+              const result = execSync(
+                'ffprobe -v error -show_entries format=duration ' +
+                '-of default=noprint_wrappers=1:nokey=1 \"' + fullPath + '\"',
+                { encoding: 'utf-8' }
+              ).trim();
+              const duration = parseFloat(result) || 0;
+              const id = path.basename(file, '.wav');
+              return { id, file, duration };
+            });
+
+            const totalDuration = chunks.reduce((sum, c) => sum + c.duration, 0);
+            console.log('Total chunks: ' + chunks.length);
+            console.log('Total duration: ' + totalDuration.toFixed(2) + 's (' +
+              (totalDuration / 60).toFixed(2) + ' min)');
+
+            fs.writeFileSync('timing.json',
+              JSON.stringify({ chunks, totalDuration }, null, 2)
+            );
+          "
+      - name: Print summary
+        run: |
+          echo "=== TIMING SUMMARY ==="
+          jq -r '.chunks[] | "\(.id): \(.duration)s"' timing.json | head -20
+          echo "..."
+          echo "Total: $(jq '.totalDuration' timing.json)s"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tts-audio-complete
+          path: |
+            *.wav
+            timing.json
+          retention-days: 90
